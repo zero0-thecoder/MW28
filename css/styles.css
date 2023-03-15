@@ -121,9 +121,13 @@ h3{
 }
 
 .mypic:hover{
-    border-radius: 25%;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 0%;
     border-color: black;
     border-style: outset;
+    transition-duration: 0.4s;
 }
 
 
